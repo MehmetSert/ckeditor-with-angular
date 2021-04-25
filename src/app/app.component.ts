@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as Editor from 'ckeditor5/build/ckeditor';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ckeditor-with-angular';
+  public Editor = Editor;
+  editorConfig = {
+
+    toolbar: {
+      items: [
+        'bold',
+        'italic',
+        'underline',
+        'link',
+        '|',
+        'alignment',
+        'fontColor',
+        'fontBackgroundColor',
+        '|',
+        'undo',
+        'redo'
+      ]
+    },
+    language: 'tr',
+    licenseKey: '',
+
+
+  };
 }
