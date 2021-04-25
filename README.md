@@ -1,5 +1,9 @@
 # CkeditorWithAngular
 
+Angular'da CKEditor 5 kullanımını adım adım anlattığım makaleye ulaşmak için: [Kodumunblogu](https://kodumunblogu.net/detail/angularda-ckeditor-5-kullanimi-ve-ozellestirme)
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
 ## Development server
